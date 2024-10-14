@@ -105,6 +105,7 @@ table {
     align-items: center;
     background-color: transparent;
     border: none;
+    color: #D9D9D9 !important;
     font-size: 1rem;
     height: 24px;
     padding: 10px;
@@ -145,8 +146,12 @@ table {
 }
 
 .card__imagem {
-    width: 450px;
-    border-radius: 10px 10px 0 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 0 0;
+    width: 100%; /* Alterado para ocupar 100% do espaço disponível */
+    max-width: 1200px; /* Limita o tamanho máximo, como você já tinha definido */
 }
 
 .card__tag {
@@ -205,7 +210,7 @@ table {
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 0 0;
-    width: 950px;
+    width: 1950px;
 }
 
 .imagem__imagem {
