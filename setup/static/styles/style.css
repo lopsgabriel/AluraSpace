@@ -151,7 +151,7 @@ table {
     flex-direction: column;
     border-radius: 20px 20px 0 0;
     width: 100%; /* Alterado para ocupar 100% do espaço disponível */
-    max-width: 1200px; /* Limita o tamanho máximo, como você já tinha definido */
+    max-width: 1000px; /* Limita o tamanho máximo, como você já tinha definido */
 }
 
 .card__tag {
@@ -210,7 +210,7 @@ table {
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 0 0;
-    width: 1950px;
+    width: 950px;
 }
 
 .imagem__imagem {
