@@ -1,4 +1,4 @@
-{% extends 'partials/base.html' %}
+{% extends 'shared/base.html' %}
 {% load static %}
 {% block content %}
             <section class="conteudo">
@@ -15,6 +15,10 @@
                                 <p class="imagem__descricao">{{ fotografia.legenda }}</p>
                                 <p class="imagem__texto">{{ fotografia.descricao }}</p>
                             </div>
+                        <div class="space-y-2">
+                            <a href="{% url 'editar-imagem' fotografia.id %}"><button class="btn btn-success col-12 py-2 mb-2" style="padding: top 5px; margin-bottom: 10px;">Editar</button></a>
+                            <a href="{% url 'deletar-imagem' fotografia.id %}"><button class="btn btn-danger col-12 py-2" style="padding: top 5px;">Deletar</button></a>
+                        </div>
                         </div>
                     </div>
                 </section>
